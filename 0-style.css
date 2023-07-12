@@ -1,0 +1,91 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    height: 100vh;
+}
+
+.header-container{ 
+    max-width: 100%; 
+    background-image: url(../assest/headphones_hero_1.jpg); 
+}
+
+.header-div{
+    display:flex;
+    height: 32px;
+    padding-top:15px;
+}
+
+.header-div ul{
+    display:flex;
+    list-style: none;
+    gap:15px;
+ }
+
+li a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  width: 55px;
+  color: #fff;
+}
+
+.header-article{
+     margin-top:350px; 
+     margin-right:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article1-div h1{
+    width: 578px;
+    height:40px ;
+}
+.article1-div p{
+    width: 355px;
+    height:20px ;
+    margin-right: 200px;
+}
+
+.btn{
+    border: #FF6565;
+    background-color:#FF6565;
+    border-radius: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-bottom: 70px;
+}
+
+.article1-div2 {
+    width: 637px;
+    height: 104px;
+    margin-left: 400px;
+    margin-bottom: 80px;
+    font-size: 16px;
+}
+
+.article1-div2 .header_p2{
+    padding:5px 10px 0px 5px ;
+
+}
+.article1-div2 .header_p3{
+    padding:1px 10px 0px;
+}
+
+.article1-div2 .header_p4{
+    padding:5px 25px 5px 200px;
+}
