@@ -1,0 +1,56 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+}
+/* .header-div{ 
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    margin-top: 20px;
+} */
+.header-container{ 
+    max-width: 100%; 
+    background-image: url(../assest/headphones_hero_1.jpg); 
+    margin-top: 0;
+    padding: 0;
+}
+
+.header-div{
+    display:flex;
+    height: 32px;
+    
+}
+
+
+
+.header-div ul{
+    display:flex;
+    list-style: none;
+    gap:15px;
+ }
+
+li a {
+  text-decoration: none;
+  height: 15px;
+  width: 55px;
+  color: #fff;
+}
+
+.main_part{
+    flex-direction:row;
+    background-image: url(../assest/headphones_hero_1.jpg);
+    width:100%;
+    background-repeat: no-repeat;
+}
+
+.top-section{
+    margin:400px;
+}
