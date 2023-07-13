@@ -38,6 +38,10 @@ header{
     display:none;
     margin-left: 50px;
 }
+
+#check:checked ::after{
+    transform: rotate(-405deg);
+}
 .logo{
     display:flex;
     justify-content: space-between;
@@ -296,7 +300,8 @@ height: 100vh;
 
 input{
     border:none;
-    border-bottom:#979797 solid;
+    outline:none;
+    border-bottom: #979797 solid;
     width:335px;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;

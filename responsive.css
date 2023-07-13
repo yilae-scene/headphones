@@ -1,0 +1,53 @@
+@media screen and (max-width: 600px){
+    .hamburger{
+        display: flex;
+        margin-right: 400px;
+        }
+
+    .hamburger:checked {
+        transform: (-406deg);
+    }
+
+     .hamburger input{
+        display: none;
+     }
+
+    .logo{
+        display:none;
+    }
+    .logo img{
+        display:block;
+    }
+    header{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+.we-do-testi1{
+    flex-wrap:wrap;
+    margin:10px;
+    width:100%;
+    height: 100%;
+}
+.do-logo1 h1 p{
+    height: 100px;
+}
+.do-logo2 h1 p{
+    height: 80px;
+}
+.do-logo3 h1 p{
+    height: 80px;
+}
+.do-logo4 h1 p{
+    height: 80px;
+}
+.results-logo{
+    flex-wrap: wrap;
+}
+
+.section-2{
+    margin-top:400px;
+}
+} 
+
