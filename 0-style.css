@@ -10,6 +10,8 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
     min-width: 100%;
+    font-size: 16px;
+    overflow-x: hidden;
 }
 
 header{ 
@@ -20,6 +22,7 @@ header{
     background-position: center;
     display: flex;
     flex-direction: column;
+
 }
 
 .header-content{
@@ -32,7 +35,7 @@ header{
 }
 
 .hamburger{
-    display:flex;
+    display:none;
     margin-left: 50px;
 }
 .logo{
@@ -91,14 +94,14 @@ a:hover{
     font-weight: bold;
     font-size: 14px;
     padding: 10px 20PX;
-    margin-top: 60px;
+    margin-top: 70px;
     margin-left:250px;
     margin-bottom: 70px;
     cursor: pointer;
 }
 
 .btn:hover{
-    transform: scale(1.1);
+    opacity:0.9;
 }
 
 .main-topic p{
@@ -119,4 +122,94 @@ a:hover{
 
 .main-topic .p4{
     padding:5px 25px 0;
+}
+
+main{
+    color: #071629;
+}
+
+.section-1{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.we-do-testi{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:637px;
+    margin-top: 60px;
+}
+
+.we-do-testi h1{
+    font-size: 32px;
+}
+
+.we-do-2{
+    margin-top: 50px;
+}
+
+.we-do-testi1{
+    display:flex;
+    width:1002px;
+    height: 193px;
+    align-items:flex-end;
+    margin-top: 250px;
+}
+
+.do-logo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.do-logo1 p{
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.do-logo1 h1{
+    margin-top: 30px;
+}
+
+.do-logo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.do-logo2 p{
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.do-logo2 h1{
+    margin-top: 30px;
+}
+
+.do-logo3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.do-logo3 p{
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.do-logo3 h1{
+    margin-top: 30px;
+}
+.do-logo4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.do-logo4 p{
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.do-logo4 h1{
+    margin-top: 30px;
 }
