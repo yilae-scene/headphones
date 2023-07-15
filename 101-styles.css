@@ -243,19 +243,19 @@ main{
     font-size:16px;
 }
 
-.results .p1{
+.results-p1{
    padding-top: 25px;
 }
 
-.results .p2{
+.results-p2{
     padding:5px 15px 0;
 }
 
-.results .p3{
+.results-p3{
     padding:5px 25px 5px;
 }
  
-.results .p4{
+.results-p4{
     padding:5px 105px 0;
 }
 
@@ -370,7 +370,7 @@ footer{
   display: inline-block;
 }
 
-.p1, .p2, .p3, .p4{
+.results-p1, .results-p2, .results-p3, .results-p4{
   overflow: hidden;
   border-right: .15em solid orange;
   white-space: nowrap;

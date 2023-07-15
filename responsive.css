@@ -15,7 +15,7 @@
     .logo{
         display:none;
     }
-    .logo img{
+    .logo>img{
         display:block;
     }
     header{
